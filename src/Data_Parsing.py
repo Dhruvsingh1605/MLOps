@@ -117,7 +117,7 @@ def save_parsed_data(parsed_data, timestamp):
 
 def main():
     parser = argparse.ArgumentParser(description="Resume Data Parser")
-    parser.add_argument("--resume", required=True, help="/media/dhruv/Local Disk/MLops/MLOps/Data_Souce/Dhruv_resume.pdf")
+    parser.add_argument("--resume", required=True, help="Path to resume file (PDF, DOCX, TXT)")
     args = parser.parse_args()
 
     timestamp = setup_logging()

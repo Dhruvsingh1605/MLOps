@@ -174,4 +174,4 @@ cython_debug/
 .pypirc
 
 
-.Data_Source
+.logs/# Local configuration files
